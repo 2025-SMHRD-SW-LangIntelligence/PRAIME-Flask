@@ -1,0 +1,14 @@
+1. prediction_results : 객체탐지 결과 이미지를 저장하는 폴더 (app.py 실행시 이미지 자동삭제)
+
+2. uploads : 객체탐지에 사용할 예측이미지를 저장하는 폴더 (app.py 실행시 이미지 자동삭제)
+
+3. yolov11_results : 객체탐지 모델(pt) 가 저장되는 장소(에폭별,last,best등이 저장됨)
+
+4. app.py : 플라스크 서버를 실행하는 파일
+
+5. createDataset.ipynb : 원본 데이터셋에서 -> yolov11 용 데이터셋으로 변환하는 파일
+
+6. fruit_disease_predictor.py : 객체탐지 모델을 불러와서 예측을 실행하는 파일
+
+7. requirments.txt : 파일들을 실행하기위해 필요한 라이브러리들
+ 

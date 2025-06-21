@@ -1,0 +1,8 @@
+Flask==3.0.3  # Flask의 최신 안정 버전
+Flask-Cors==4.0.0 # CORS 기능을 위해 필요
+PyYAML==6.0.1  # YAML 파일 처리를 위해 필요
+ultralytics==8.3.156 # YOLOv8+ 모델 사용을 위해 필요 (현재 시점의 최신 안정 버전)
+opencv-python==4.9.0.80 # OpenCV 라이브러리 (cv2)
+numpy==1.26.4 # 수치 계산 라이브러리
+matplotlib==3.8.4 # 그래프 및 시각화를 위해 필요
+Pillow==10.3.0 # PIL (Python Imaging Library)의 포크, 이미지 처리 (Image, ImageDraw, ImageFont)를 위해 필요

@@ -1,0 +1,15 @@
+1. 가상환경 설치
+conda create -n DL python=3.10
+
+2. 가상환경 활성화
+conda activate DL
+
+3. 파이토치 12.8버전설치(GPU버전)
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+
+4. createDataset.ipynb실행
+4-1 원본데이터셋 경로설정
+4-2 변환저장할 Yolo v11용 데이터셋 경로설정
+4-3 createDataset 실행
+
+5. app.py 플라스크 서버 실행
