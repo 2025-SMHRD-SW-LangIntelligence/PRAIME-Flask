@@ -27,7 +27,7 @@ CORS(app)
 # 설정
 UPLOAD_FOLDER = 'uploads'
 PREDICTION_RESULTS_FOLDER = 'prediction_results'
-ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
+ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif','webp','bmp','ico'}
 
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['PREDICTION_RESULTS_FOLDER'] = PREDICTION_RESULTS_FOLDER
