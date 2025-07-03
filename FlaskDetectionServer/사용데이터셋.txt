@@ -1,0 +1,12 @@
+AiHub 과수화상병 데이터셋 사용
+https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&searchKeyword=%EA%B3%BC%EC%88%98%ED%99%94%EC%83%81%EB%B3%91%20%EC%B4%AC%EC%98%81%20%EC%9D%B4%EB%AF%B8%EC%A7%80&aihubDataSe=data&dataSetSn=146
+
+0~7 질병코드로 클래스분류
+
+HDD문제로 증강이미지를 제외하고 질병,정상 이미지와 라벨만 사용
+
+문제점 : 
+데이터불균형상황 발생
+증강데이터를 제외하면 질병중 특히 배 과수화상병과 사과 과수화상병의 데이터가 꽤나 적어서
+100Epochs 훈련된 YoloV11모델로 해당 클래스의 이미지의 경우 인식률이 크게 저하되는것을 확인
+
